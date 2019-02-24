@@ -1,0 +1,21 @@
+{% extends "base.html.twig" %}
+
+{% block title %} Currencies {% endblock %}
+
+{% block body %}
+    <h3>Table of Currencies</h3>
+    <table class="table" border="1">
+        <tr>
+            <td><b>USD:</b></td>
+            <td>{{ usd }}</td>
+        </tr>
+        <tr>
+            <td><b>EUR:</b></td>
+            <td>{{ eur }}</td>
+        </tr>
+        <tr>
+            <td><b>GBP:</b></td>
+            <td>{{ gbp }}</td>
+        </tr>
+    </table>
+{% endblock %}
